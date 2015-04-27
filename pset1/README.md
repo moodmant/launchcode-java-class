@@ -15,7 +15,7 @@ If you haven't done so already, create a [github](http://github.com) account. Yo
 
 Next, open up Intellij. Select the option to check out code from a repository and follow the prompts to create a project, using the above guide if you get stuck. If you see the folders for problem sets in the project explorer, then you have succeeded!
 
-==========================
+#Using Encapsulation
 
 Your task is to generate two classes: Student and Course
 
@@ -57,9 +57,7 @@ Hint: it may be useful to create an additional constructor!
 
 * Before moving on, make sure you have written at least one test for each method, and that your tests pass!
 
-===========================
-
-Creating a Course class
+#Creating a Course class
 
 The Course class should contain the following properties:
 
