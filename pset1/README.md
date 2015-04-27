@@ -32,21 +32,22 @@ Add these properties to your class, create a constructor, create some accessors,
 
 Now we want to add some functionality to our Student class. Add the following methods:
 
-* toString() - returns the students full name and student ID
-* getClassStanding() - returns the students class standing based on how many credits they have:
+`**toString()**` - returns the students full name and student ID
+
+`**getClassStanding()**` - returns the students class standing based on how many credits they have:
 
 - Fewer than 30: Freshman
 - More than 30 but less than 60: Sophomore
 - More than 60 but less than 90: Junior
 - More than 90: Senior
 
-* submitGrade() - this method takes in a course grade (as a value between 0 and 4) and the number of credits for a course, and updates the students GPA accordingly. GPA can be computed by the following formula:
+`**submitGrade()**` - this method takes in a course grade (as a value between 0 and 4) and the number of credits for a course, and updates the students GPA accordingly. GPA can be computed by the following formula:
 
 Take the number of credits for a course and multiply it by the grade for that course. This is called the quality score. GPA is computed as the sum of all of the quality scores for each course the student has taken, divided by the total number of credits.
 
-* computeTuition() - this method returns the total amount of tuition the student has paid. The average cost of tuition for 1 semester in the United States is roughly $20,000. Assume that there are 15 credit hours per semester, and come up with a strategy to handle any "leftover" credits.
+`**computeTuition()**` - this method returns the total amount of tuition the student has paid. The average cost of tuition for 1 semester in the United States is roughly $20,000. Assume that there are 15 credit hours per semester, and come up with a strategy to handle any "leftover" credits.
 
-* createLegacy() - it is not unusual for two students to meet at college, get married, start a family, and send their children to the same school. This method should take a Student object as a parameter then create a new Student object based on the following criteria:
+`**createLegacy()**` - it is not unusual for two students to meet at college, get married, start a family, and send their children to the same school. This method should take a Student object as a parameter then create a new Student object based on the following criteria:
 
 - Use one parent's full name as the baby's first name, the other parent's full name as the baby's last name
 - Assign the baby a random student ID that has at least six digits.
@@ -55,7 +56,7 @@ Take the number of credits for a course and multiply it by the grade for that co
 
 Hint: it may be useful to create an additional constructor!
 
-* Before moving on, make sure you have written at least one test for each method, and that your tests pass!
+Before moving on, make sure you have written at least one test for each method, and that your tests pass!
 
 #Creating a Course class
 
@@ -70,12 +71,12 @@ Add these properties to your class, create a constructor, create some accessors,
 
 Next, implement the following functionality:
 
-* toString() - should contain the course number and credits
+`**toString()**` - should contain the course number and credits
 
-* addStudent() - returns a boolean based on whether or not the student was successfully added to the course. Check to make sure that the student has not already enrolled, and update the number of seats remaining.
+`**addStudent()**` - returns a boolean based on whether or not the student was successfully added to the course. Check to make sure that the student has not already enrolled, and update the number of seats remaining.
 
-* printRoster() - displays a roster with all of the students in the course. Make sure to omit "empty" seats!
+`**printRoster()**` - displays a roster with all of the students in the course. Make sure to omit "empty" seats!
 
-* averageGPA() - returns the average GPA of all students enrolled in the course. Make sure to omit "empty" seats!
+`**averageGPA()**` - returns the average GPA of all students enrolled in the course. Make sure to omit "empty" seats!
 
 Once you are finished, make sure you have written at least one test for each method, and that they pass. Then commit your code to your repository.
