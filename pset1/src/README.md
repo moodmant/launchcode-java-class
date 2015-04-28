@@ -79,7 +79,9 @@ Next, implement the following functionality:
 
 **`averageGPA()`** - returns the average GPA of all students enrolled in the course. Make sure to omit "empty" seats!
 
-Once you are finished, make sure you have written at least one test for each method, and that they pass. Then commit and push your code to your repository, and notify an instructor.
+Once you are finished, make sure you have written at least one test for each method, and that they pass. In addition to your unit tests, you should also have a main() method in your program that creates a few instances of students and courses, and tests their functionality.
+
+Then commit and push your code to your repository (select the files -> right click -> git -> Commit -> Commit and Push), and notify an instructor. You can email Doug at: dsshook@gmail.com.
 
 #Additional Features
 
