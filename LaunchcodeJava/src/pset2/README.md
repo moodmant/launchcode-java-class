@@ -5,7 +5,7 @@ Create a `BankAccount` class. Your bank account should be able to:
 * accept funds for deposit
 * withdraw funds (if available!)
 * compound interest
-
+ hello world! can you see this?!?!?!
 Consider what information you will need for this class. Write some tests, code up the class, then make sure it works.
 
 Once that's finished, create a second class called `Bank`. A `Bank` class is essentially a container for `BankAccounts`. A bank should be able to:
