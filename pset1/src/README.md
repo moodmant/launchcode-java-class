@@ -80,3 +80,7 @@ Next, implement the following functionality:
 **`averageGPA()`** - returns the average GPA of all students enrolled in the course. Make sure to omit "empty" seats!
 
 Once you are finished, make sure you have written at least one test for each method, and that they pass. Then commit your code to your repository.
+
+#Additional Features
+
+This exercise could also be extended to include `Department`, `Instructor`, `University`, and  `Semester` classes. Try designing some of these and incorporating them into this problem set if you have time. Don't forget to test!
