@@ -25,8 +25,8 @@ You're now ready to present these questions as a Quiz. Create a quiz class that 
 
 You have two paths for grabbing user input:
 
-* Scanner can read input from the console (quicker, easier): [http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html](Scanner API)
-* Dialogs use windows and buttons to get user feedback (more complex, but flashier): [https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html] (Dialog Examples)
+* Scanner can read input from the console (quicker, easier): [Scanner API](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)
+* Dialogs use windows and buttons to get user feedback (more complex, but flashier): [Dialog Examples](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html)
 
 When it comes to testing this portion of the program, be careful: good design states that retrieving input should be kept separate and isolated from the rest of the program. We want to be able to simulate user input in our tests by provided the appropriate values through method calls. We do **not** want to have to sit and type in a bunch of answers to questions just to test our code!
 
