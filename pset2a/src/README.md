@@ -1,11 +1,13 @@
 #Problem Set 2a - Inheritance
 
+You may need to update your repository in Intellij to get the new problem sets. To do this, go to VCS -> Git -> Fetch.
+
 Here are some helpful resources regarding inheritance:
 
-* (https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)[Java Documentation on Inheritance]
-* (https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)[Polymorphism]
-* (http://www.javaworld.com/article/2076814/core-java/inheritance-versus-composition--which-one-should-you-choose-.html)[Inheritance vs. Composition]
-* (https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)[Access Modifiers]
+* [https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html](Java Documentation on Inheritance)
+* [https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html](Polymorphism)
+* [http://www.javaworld.com/article/2076814/core-java/inheritance-versus-composition--which-one-should-you-choose-.html](Inheritance vs. Composition)
+* [https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html](Access Modifiers)
 
 Your task for this problem set is to update problem set 1 to incorporate an `Instructor` class. Before you get to that point, however, you will first construct a more generic `Person` class.
 
