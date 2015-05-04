@@ -37,10 +37,10 @@ Create a `Netflix` class that contains a set of TV Shows and movies for people t
 
 Welcome to Netflix! Please make a selection:
 
-1.) See a list of TV Shows.<br>
-2.) See a list of Movies.<br>
-3.) See a list of all TV Shows and Movies that you have watched.<br>
-4.) Exit.<br>
+1. See a list of TV Shows.<br>
+2. See a list of Movies.<br>
+3. See a list of all TV Shows and Movies that you have watched.<br>
+4. Exit.<br>
 
 Please make a selection:
 
