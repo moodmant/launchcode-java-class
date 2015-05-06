@@ -11,7 +11,13 @@
  *  throwing
  *  data validation
  *  creating your own exceptions
+ * Collections
+ *  ArrayLists
+ * Equals
+ * Naming Conventions
+ * Debugger
  */
+
 public interface Measurable {
 
     public double getArea();
