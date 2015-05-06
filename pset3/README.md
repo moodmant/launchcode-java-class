@@ -9,6 +9,7 @@ Here are some good references to check out before/while you work on this pset:
 * [Java Exception Lesson](https://docs.oracle.com/javase/tutorial/essential/exceptions/)
 * [Exceptions tutorial](http://www.tutorialspoint.com/java/java_exceptions.htm)
 * [HashMap tutorial](http://tutorialswithexamples.com/java-map-and-hashmap-tutorial-with-examples/)
+* [Reading a file with scanner](http://www.javaprogrammingforums.com/file-input-output-tutorials/339-reading-file-line-line-using-scanner-class.html)
 
 #Cryptography
 
@@ -37,3 +38,7 @@ You may assume that everything is in lower or upper case to keep things simple. 
 #Putting it all together
 
 Once you have completed and thoroughly tested your code, notify the instructor.
+
+#Extra
+
+Extend your code to read in a file and encode/decode it (or both!). Make sure to handle Exceptions appropriately using try/catch.
