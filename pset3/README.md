@@ -19,14 +19,12 @@ First, create an interface called `Encodable`. This interface should have the fo
 
 * encode
 * decode
-* createEncodeMap
-* createDecodeMap
 
 #Implementing your interface
 
 Once you are satisfied with your interface, you should implement it. Create a `Caesar` class and a `Vignere` class that implement your interface.
 
-For the map creation methods, you should have your objects create `HashMaps` with a mapping of each character of the alphabet to the character it would be encoded/decoded to. For example, if created a Caesar Cipher with a key of 1, the encode map could be used like this:
+For the Caesar cipher, you should create two additional methods: `createEncodeMap` and `createDecodeMap`. These methods should create `HashMaps` with a mapping of each character of the alphabet to the character it would be encoded/decoded to. For example, if created a Caesar Cipher with a key of 1, the encode map could be used like this:
 
 `Map<String, String> encodeMap = c.createEncodeMap();
 System.out.println(encodeMap.get("a");//would print "b"`
